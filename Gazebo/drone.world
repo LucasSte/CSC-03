@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="sick_tree">
+      <pose>6 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://SickTree.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+ <model name="healthy_tree">
+      <pose>-6 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://HealthyTree.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>
