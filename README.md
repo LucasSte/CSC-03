@@ -7,9 +7,9 @@ sudo systemctl start firmwared.service
 fdc ping
 ```
 
-If the above commands worked, ***PONG*** should appear on screen.
+If the above commands work, ***PONG*** should appear on screen.
 
-To start the word, type:
+To start the Gazebo world, type:
 
 ```
 cd Gazebo
