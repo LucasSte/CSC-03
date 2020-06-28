@@ -8,7 +8,7 @@ class DiseaseDetector:
     model = None
 
     '''
-        Instantiate this class ony once, as the constructor is slow
+        Instantiate this class only once, as the constructor is slow
     '''
     def __init__(self):
         os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
@@ -20,7 +20,7 @@ class DiseaseDetector:
 
     '''
         Image is supposed to be an OpenCV (CV2) image
-        The color scheme must be RGB (OpenCV main scheme is BRG)
+        The color scheme must be RGB (OpenCV's main scheme is BRG)
         Use cv2.cvtColor to convert color schemes
         
         Returns true if the plant is sick
