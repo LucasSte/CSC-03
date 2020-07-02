@@ -201,10 +201,9 @@ class Streaming(threading.Thread):
         cv2.destroyWindow(window_name)
 
     def move(self,x=0,y=0,z=0,rot=0):
-        assert self.drone(
+        self.drone(
             moveBy(x, y, -z, rot)
-            >> FlyingStateChanged(state="hovering")
-        ).wait().success()
+        ).wait()
 
     def spiralMove(self,R=6,z_shift=0.2,rot_shift=math.pi/3):
         sleepTime = 0.1
