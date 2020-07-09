@@ -1,4 +1,4 @@
-# CSC-03
+# Smart-Drones-For-Pest-Detection
 
 Use the following steps to run the world on Gazebo:
 
