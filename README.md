@@ -15,3 +15,9 @@ To start the Gazebo world, type:
 cd Gazebo
 sphinx drone.world /opt/parrot-sphinx/usr/share/sphinx/drones/bebop2.drone 
 ```
+
+With the Olympe environment activated, do:
+
+```
+python main.py
+```
