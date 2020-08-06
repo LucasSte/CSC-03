@@ -1,5 +1,7 @@
 # Smart-Drones-For-Pest-Detection
 
+[![Watch the video](https://img.youtube.com/vi/YfdVrz5O6WU/maxresdefault.jpg)](https://www.youtube.com/watch?v=YfdVrz5O6WU)
+
 Use the following steps to run the world on Gazebo:
 
 ```
