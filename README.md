@@ -23,3 +23,5 @@ With the Olympe environment activated, do:
 ```
 python main.py
 ```
+
+The drone detects sick plants by the color of their leaves, using a neural network. Its arquitechture is available on the jupyter notebook ```TreeColor.ipynb```.
