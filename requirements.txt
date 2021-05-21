@@ -150,7 +150,7 @@ smach==2.0.1
 smach-ros==2.0.1
 smclib==1.8.5
 tensorboard==1.15.0
-tensorflow==1.15.2
+tensorflow==2.5.0
 tensorflow-estimator==1.15.1
 termcolor==1.1.0
 terminado==0.8.3
